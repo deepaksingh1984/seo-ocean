@@ -13,8 +13,8 @@ A lightweight VS Code extension to bootstrap your HTML5 projects with high-perfo
 
 Open the **Command Palette** (`Ctrl+Shift+P` / `Cmd+Shift+P`) and type:
 
-* `HTML5.insertHTML` — A full boilerplate for standard websites.
-* `HTML5.insertBlogPage` — Optimized for articles with specific JSON-LD Schema.
+* `HTML5: Insert Basic Template` — A full boilerplate for standard websites.
+* `HTML5: Insert Blog Page Template` — Optimized for articles with specific JSON-LD Schema.
 
 ## 📖 Usage
 

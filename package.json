@@ -1,16 +1,16 @@
 {
-  "name": "html5-extension",
-  "displayName": "HTML5 Templates",
+  "name": "HTML5",
+  "displayName": "HTML5 SEO Templates",
   "description": "Inserts HTML5 and Blog meta-tag templates",
-  "version": "1.1.0",
-  "icon": "icon.png",
+  "version": "1.1.1",
+  "icon": "images/icon.png",
   "publisher": "DeepakSingh",
   "engines": {
     "vscode": "^1.90.0"
   },
   "repository": {
   "type": "git",
-  "url": "https://github.com/YOUR_USERNAME/YOUR_REPO.git"
+  "url": "https://github.com/deepaksingh1984/seo-ocean"
 },
   "categories": [
     "Programming Languages",
