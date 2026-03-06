@@ -1,0 +1,43 @@
+{
+  "name": "html5-extension",
+  "displayName": "HTML5 Templates",
+  "description": "Inserts HTML5 and Blog meta-tag templates",
+  "version": "1.1.0",
+  "icon": "icon.png",
+  "publisher": "DeepakSingh",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/YOUR_USERNAME/YOUR_REPO.git"
+},
+  "categories": [
+    "Programming Languages",
+    "Formatters",
+    "Snippets"
+  ],
+  "activationEvents": [],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "HTML5.insertHTML",
+        "title": "HTML5: Insert Basic SEO Template"
+      },
+      {
+        "command": "HTML5.insertBlogPage",
+        "title": "HTML5: Insert Blog Page SEO Template"
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "node ./test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.90.0",
+    "eslint": "^8.0.0"
+  }
+}
